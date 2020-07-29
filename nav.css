@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Baskervville&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+  height: auto;
+  padding: 0%;
+}
+
+.logo-text {
+  position: relative;
+  font-family: "Raleway";
+  font-size: 2em;
+  color: #86a5a5;
+}
+
+nav {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  opacity: 0.8;
+  z-index: 2;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: #8e9b9b;
+  text-align: center;
+  padding: 70px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  padding-top: 60px;
+}
+
+li a:hover:not(.active) {
+  color: #00afc5;
+}
+
+
+
+.logo {
+  width: 25%;
+  padding-left: 1%;
+}
+
+.open-button {
+  display: block;
+
+  text-align: center;
+  padding: 70px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  border: none;
+}
+/* Position the Popup form */
+.login-popup {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  z-index: 9;
+}
+/* Hide the Popup form */
+.form-popup {
+  display: none;
+  position: fixed;
+  right: -5.5%;
+  top: 2%;
+  -webkit-transform: translate(-45%, 5%);
+  transform: translate(-45%, 5%);
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 2px 2px 4px;
+  border-color: #86a5a5;
+  z-index: 9;
+}
+/* Styles for the form container */
+.form-container {
+  width: 250px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+}
+/* Full-width for input fields */
+.form-container input[type="text"],
+.form-container input[type="password"] {
+  height: 5%;
+  width: 100%;
+  padding: 12px 20px;
+  border: 1px solid #007382;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.navbar-toggler {
+  margin-left: 80vw;
+  position: absolute;
+}
+
+/* Style submit/login button */
+.form-container .btn {
+  background-color: #00afc5;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+/* Style cancel button */
+.form-container .cancel {
+  background-color: #cc0000;
+}
+/* Hover effects for buttons */
+.form-container .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}

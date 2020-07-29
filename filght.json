@@ -1,0 +1,5 @@
+{"_id":{"$oid":"5dfae4573481b52b78b95b7d"},"flightid":{"$oid":"5dfae3d114ee282b781c6096"},"departure":"Copenhagen","arrival":"oslo","price":{"$numberInt":"500"},"datendeptime":{"$date":{"$numberLong":"1576710000000"}}},
+{"_id":{"$oid":"5dfae47a3481b52b78b95b7e"},"flightid":{"$oid":"5dfae3d114ee282b781c6096"},"departure":"Oslo","arrival":"copenhagen","price":{"$numberInt":"500"},"datendeptime":{"$date":{"$numberLong":"1576710000000"}}},
+{"_id":{"$oid":"5dfae47c3481b52b78b95b7f"},"flightid":{"$oid":"5dfae3d114ee282b781c6096"},"departure":"Oslo","arrival":"copenhagen","price":{"$numberInt":"500"},"datendeptime":{"$date":{"$numberLong":"1576710000000"}}},
+{"_id":{"$oid":"5dfae49e3481b52b78b95b80"},"flightid":{"$oid":"5dfae3d114ee282b781c6096"},"departure":"Malmo","arrival":"Copenhagen","price":{"$numberInt":"500"},"datendeptime":{"$date":{"$numberLong":"1576710000000"}}},
+{"_id":{"$oid":"5dfae4ae3481b52b78b95b81"},"flightid":{"$oid":"5dfae3d114ee282b781c6096"},"departure":"Copenhagen","arrival":"Malmo","price":{"$numberInt":"500"},"datendeptime":{"$date":{"$numberLong":"1576710000000"}}}

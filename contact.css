@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(cph.jpg);
+  background-repeat: no-repeat;
+  background-size: 1900px 910px;
+  padding: 0%;
+}
+
+h1 {
+  color: #00afc5;
+  font-size: 40px;
+  padding-top: 5%;
+}
+
+p {
+  font-size: 15px;
+}
+
+.w3-container {
+  border-radius: 15px;
+  width: 100%;
+  opacity: 0.9;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #86a5a5;
+}
+
+.w3-right {
+  margin-top: 7%;
+}
+
+.w3-button {
+  width: 100px;
+  background-color: #00afc5;
+  color: white;
+  border-radius: 5px;
+}

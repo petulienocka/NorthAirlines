@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.open-button {
+  display: block;
+  color: #86a5a5;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  cursor: pointer;
+  border: none;
+}
+/* Position the Popup form */
+.login-popup {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+/* Hide the Popup form */
+.form-popup1 {
+  display: none;
+  position: fixed;
+  right: 12%;
+  top: 22%;
+}
+/* Styles for the form container */
+.form-container {
+  width: 370px;
+  height: 490px;
+  padding: 25px;
+  background-color: white;
+}
+/* Full-width for input fields */
+.form-container input[type="text"],
+.form-container input[type="password"] {
+  height: 12%;
+  width: 100%;
+  padding: 12px 20px;
+  border: 1px solid #86a5a5;
+  border-radius: 4px;
+  resize: vertical;
+}
+.navbar-toggler {
+  margin-left: 80vw;
+  position: absolute;
+}
